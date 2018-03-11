@@ -3,7 +3,7 @@
 
 **Lab 1**
 ```
-https://www.geeksforgeeks.org/sorting-algorithms/
+[https://www.geeksforgeeks.org/sorting-algorithms/]
 
 https://www.tutorialspoint.com/cplusplus/cpp_classes_objects.htm
 
