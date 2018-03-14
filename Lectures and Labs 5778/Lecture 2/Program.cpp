@@ -15,12 +15,14 @@
 #include "Student.h"
 using namespace std;
 
-void pshuta();
+void function_with_local_object();
 void donothing(Student);
 
 int main()
 {
-	//pshuta();
+	cout << "*** constructor ***" << endl;
+	function_with_local_object();
+	cout << "*** destructor ***" << endl;
 
 	double* tziyunim = new double[4]{ 45.5, 98 , 87.5, 54.49 };
 
@@ -73,10 +75,10 @@ int main()
 	return 0;
 }
 
-void pshuta()
+void function_with_local_object()
 {
-	// consttuctor
-	Student echad;
+	// constructor
+	Student echad;	//local object exist only in this scope
 	// destructor when exiting from function
 }
 
