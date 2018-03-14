@@ -27,7 +27,7 @@ int main()
 	double* tziyunim = new double[4]{ 45.5, 98 , 87.5, 54.49 };
 
 	cout << "*** constructor ***" << endl;
-	Student CC("gaon", tziyunim, 4);
+	Student CC("gaon katan", tziyunim, 4);
 	delete[] tziyunim;	// it will NOT influences the Student created above
 	cout << "******" << endl;
 	
