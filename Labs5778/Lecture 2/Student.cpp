@@ -5,7 +5,7 @@
 using namespace std;
 
 
-Student::Student() : kama(0), grades(nullptr)
+Student::Student() // : kama(0), grades(nullptr)
 {
 	strcpy(name, "lo yadua");
 	cout << "Student nolad" << endl;
@@ -13,7 +13,8 @@ Student::Student() : kama(0), grades(nullptr)
 
 Student::Student(const char * shem, const double * v, int n) :Student()
 {
-	int godel = (strlen(shem) > 14) ? 14 : strlen(shem);
+	//size_t === unsigned int
+	size_t godel = (strlen(shem) > 14) ? 14 : strlen(shem);
 	strncpy(name, shem, godel);
 	name[godel] = '\0';
 

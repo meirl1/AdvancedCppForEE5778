@@ -3,8 +3,8 @@ class Student
 {
 private:
 	char name[15];
-	double * grades;
-	int kama;
+	double * grades =nullptr;
+	int kama =0;
 public:
 	// constructors
 	Student();
