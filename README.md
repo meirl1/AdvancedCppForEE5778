@@ -1,8 +1,8 @@
 # AdvancedCppForEE5778
 ## Labs for advanced cpp for Electronics dept. 5778   
-
+<SPAN dir="RTL">
    **לקבלת מידע נוסף ראה גם**
-
+</SPAN>
 **Lab 1**
 
    - https://www.geeksforgeeks.org/sorting-algorithms/
