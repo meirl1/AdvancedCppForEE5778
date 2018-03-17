@@ -16,3 +16,7 @@
    - http://www.cplusplus.com/doc/tutorial/classes2
    - http://www.cplusplus.com/articles/y8hv0pDG
 
+**Lab 3**
+   - http://www.cplusplus.com/reference/stl/
+   -https://webcourse.cs.technion.ac.il/234122/Summer2017/ho/WCFiles/tutorial11.pdf
+   
