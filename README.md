@@ -1,7 +1,7 @@
 # AdvancedCppForEE5778
 ## Labs for advanced cpp for Electronics dept. 5778  
 
-<DIV dir="RTL">**לקבלת מידע נוסף ראה גם**</DIV>
+**<DIV dir="RTL">לקבלת מידע נוסף ראה גם</DIV>**
 
 **Lab 1**
 
