@@ -18,6 +18,7 @@
 
 **Lab 3**
    - http://www.cplusplus.com/reference/stl
+   - https://cal-linux.com/tutorials/STL.html
    - http://www.iet.unipi.it/a.bechini/fond2docs/intro_STL_Lipari.pdf
    - https://webcourse.cs.technion.ac.il/234122/Summer2017/ho/WCFiles/tutorial11.pdf
    
