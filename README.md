@@ -33,5 +33,6 @@ more STL
 - https://www.geeksforgeeks.org/static-keyword-cpp
 - https://www.geeksforgeeks.org/containers-cpp-stl
 - http://www.cplusplus.com/reference/queue/priority_queue/priority_queue
- 
+**<DIV dir="RTL">לסקרנים</DIV>**
+- http://fusharblog.com/3-ways-to-define-comparison-functions-in-cpp/
    
