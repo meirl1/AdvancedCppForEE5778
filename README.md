@@ -22,4 +22,16 @@
    - http://www.iet.unipi.it/a.bechini/fond2docs/intro_STL_Lipari.pdf
    - https://www.geeksforgeeks.org/the-c-standard-template-library-stl
    - https://webcourse.cs.technion.ac.il/234122/Summer2017/ho/WCFiles/tutorial11.pdf
+ 
+ **Lecture 3**
+```
+overloading arithmetics operators
+more STL
+...
+```
+- https://www.tutorialspoint.com/cplusplus/cpp_overloading.htm
+- https://www.geeksforgeeks.org/static-keyword-cpp
+- https://www.geeksforgeeks.org/containers-cpp-stl
+- http://www.cplusplus.com/reference/queue/priority_queue/priority_queue
+ 
    
