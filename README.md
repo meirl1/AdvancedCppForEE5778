@@ -38,6 +38,6 @@ more STL
 
 - http://fusharblog.com/3-ways-to-define-comparison-functions-in-cpp
 
-**<DIV dir="RTL"למי שלא מצליח לישון</DIV>**
+למי שלא מצליח לישון
 
 - https://github.com/MicrosoftDocs/cpp-docs
