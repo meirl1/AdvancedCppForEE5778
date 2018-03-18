@@ -37,5 +37,7 @@ more STL
 **<DIV dir="RTL">לסקרנים</DIV>**
 
 - http://fusharblog.com/3-ways-to-define-comparison-functions-in-cpp
+
 **<DIV dir="RTL"למי שלא מצליח לישון</DIV>**
+
 - https://github.com/MicrosoftDocs/cpp-docs
