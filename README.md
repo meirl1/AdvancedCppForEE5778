@@ -26,10 +26,10 @@
  **Lecture 3**
 ```
 overloading arithmetics operators and output operators
-more STL
-...
+
 ```
 - https://www.tutorialspoint.com/cplusplus/cpp_overloading.htm
+- https://www.ntu.edu.sg/home/ehchua/programming/#Cpp
 - https://www.geeksforgeeks.org/static-keyword-cpp
 - https://www.geeksforgeeks.org/containers-cpp-stl
 - http://www.cplusplus.com/reference/queue/priority_queue/priority_queue
