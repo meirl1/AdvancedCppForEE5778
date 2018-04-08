@@ -27,7 +27,7 @@ void Polygon::addPoint(int index, const Point & pt)
 {
 	if (index >= 0 && index < n)
 	{
-		points[index] = Point(pt);
+		points[index] = pt;
 	}
 }
 
