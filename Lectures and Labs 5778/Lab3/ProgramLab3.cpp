@@ -23,12 +23,22 @@ int main()
 	double x, y;
 	cout << "jiihiuhjkb mknhhbn" << endl;
 	cin >> n;
-	Polygon poly(n);
+	Polygon poly(n),poly2(n);
 	for (int i = 0; i < n; i++)
 	{
 		cin >> x;
 		cin >> y;
-		poly.addPoint(i, Point(x, y));
+		//poly.addPoint(i, Point(x, y));
+		poly[i] = Point(x, y);
+	}
+	if (poly[1] == poly[2])
+	{
+		cout << "shtei hanekudot shavot" << endl;
+	}
+	poly2 = poly;
+	if (poly == poly2)
+	{
+		cout << "yesh" << endl;
 	}
 	cout << "perimeter is: " << poly.perimeter() << endl;
 	system("pause");
