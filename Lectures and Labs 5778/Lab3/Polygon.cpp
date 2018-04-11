@@ -81,11 +81,8 @@ Point & Polygon::operator[](int index)
 	{
 		return  points[index];
 	}
-	else
-	{
-		cout << "index out of range " << endl;
-		return;
-	}
+	
+	cout << "index out of range " << endl;
 	//dummy
 	return (*new Point());
 }
