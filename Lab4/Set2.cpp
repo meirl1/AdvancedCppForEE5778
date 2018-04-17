@@ -118,6 +118,9 @@ Set2 Set2::operator+(const Set2 & other) const
 	memcpy(newvec, buffer, newsize * sizeof(int));
 	delete[] buffer;
 
+	delete[] temp1;
+	delete[] temp2;
+
 	return Set2(newvec,newsize);
 
 }
@@ -167,6 +170,9 @@ Set2 Set2::operator-(const Set2 & other) const
 	int * newvec = new int[newsize];
 	memcpy(newvec, buffer, newsize * sizeof(int));
 	delete[] buffer;
+
+	delete[] temp1;
+	delete[] temp2;
 
 	return Set2(newvec,newsize);
 }
