@@ -153,13 +153,15 @@ Set::~Set()
 
 ostream & operator<<(ostream & out, const Set & set)
 {
-	for(auto it = set.data.begin();it != set.data.end();++it)
+	auto it = set.data.begin();
+	auto end_1 = prev(set.data.end());
+
+	while(it != end_1)
 	{
-		out << *it;
-		if (next(it, 1) != set.data.end())
-		{
-			out << ',';
-		}		
+		out << *it << ',';
+		++it;
 	}
+	out << *it; //last element
+
 	return out;
 }
