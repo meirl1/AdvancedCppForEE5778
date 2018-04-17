@@ -43,15 +43,18 @@ Set2::Set2(const Set2 & other):size(other.size)
 
 Set2 & Set2::operator=(const Set2 & other)
 {
-	if (size)
+	if (this != &other)
 	{
-		delete[] data;
-	}
-	size = other.size;
-	if (size)
-	{
-		data = new int[size];
-		memcpy(this->data, other.data, size * sizeof(int));
+		if (size)
+		{
+			delete[] data;
+		}
+		size = other.size;
+		if (size)
+		{
+			data = new int[size];
+			memcpy(this->data, other.data, size * sizeof(int));
+		}
 	}
 	return *this;
 }
@@ -186,7 +189,7 @@ Set2::~Set2()
 	}
 }
 
-ostream & operator<<(ostream & out,  Set2 & set)
+ostream & operator<<(ostream & out,  const Set2 & set)
 {
 	int * it = set.data;
 	int	*end = set.data + set.size -1;

@@ -21,8 +21,11 @@ Set::Set(const Set & source)
 
 Set & Set::operator=(const Set & source)
 {
-	data.resize(0);
-	data.assign(source.data.begin(), source.data.end());
+	if (this != &source)
+	{
+		data.resize(0);
+		data.assign(source.data.begin(), source.data.end());
+	}
 	return *this;
 }
 
