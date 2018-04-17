@@ -1,4 +1,7 @@
 #pragma once
+#include <iostream>
+using namespace std;
+
 class Set2
 {
 	int *data;
@@ -12,7 +15,7 @@ public:
 	void operator+=(const int& value);
 	Set2 operator+(const Set2& other)const;
 	Set2 operator-(const Set2& other)const;
-	friend  ostream& operator<<(ostream& out, const Set2& set);
+	friend  ostream& operator<<(ostream& out,  Set2& set);
 	~Set2();
 };
 

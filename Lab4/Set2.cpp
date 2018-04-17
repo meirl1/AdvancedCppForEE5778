@@ -1,3 +1,4 @@
+
 #include "Set2.h"
 #include <cstring>
 #include <algorithm>
@@ -52,12 +53,13 @@ Set2 & Set2::operator=(const Set2 & other)
 		data = new int[size];
 		memcpy(this->data, other.data, size * sizeof(int));
 	}
+	return *this;
 }
 
 void Set2::operator+=(const int & value)
 {
-	it = find(data.begin(), data.end(), value);
-	if (it == data.end())
+	auto it = find(data, data+size, value);
+	if (it == data+size)
 	{
 		int* temp = new int[size + 1];
 		temp[size] = value;
@@ -78,9 +80,11 @@ Set2 Set2::operator+(const Set2 & other) const
 	int *it1 = temp1,
 		*it2 = temp2,
 		*end1 = temp1 + size,
-		*end2 = temp2 + othe.size;
+		*end2 = temp2 + other.size;
 
-	while (it1 < end1 && j < end2)
+	int newsize = 0;
+
+	while (it1 < end1 && it2 < end2)
 	{
 		if (*it1 < *it2)
 		{
@@ -176,10 +180,10 @@ Set2::~Set2()
 	}
 }
 
-ostream & operator<<(ostream & out, const Set2 & set)
+ostream & operator<<(ostream & out,  Set2 & set)
 {
-	int * it = set.data,
-		*end = set.data + size -1;
+	int * it = set.data;
+	int	*end = set.data + set.size -1;
 
 	while(it != end)
 	{
