@@ -9,7 +9,7 @@ class Seller :	public Employee
 	static constexpr int NIGHT_RATE = 35;
 
 public:
-	Seller(const char* name, int days, int hours);
+	Seller(const char* name, int days, int nights);
 	Seller(const Seller& seller);
 	~Seller();
 	
@@ -17,7 +17,7 @@ public:
 	double calcSalary()const override;
 };
 
-inline Seller::Seller(const char * name, int days, int hours):Employee(name,days,hours)
+inline Seller::Seller(const char * name, int days, int nights):Employee(name,days,nights)
 {
 }
 
