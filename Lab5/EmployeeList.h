@@ -35,4 +35,8 @@ EmployeeList::~EmployeeList()
 	{
 		delete elem;
 	}
+	//for (list<Employee*>::iterator itr = this->begin(); itr != this->end(); itr++)
+	//{
+	//	delete *itr;
+	//}
 }
