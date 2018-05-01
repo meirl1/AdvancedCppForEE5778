@@ -116,6 +116,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Employee.h" />
+    <ClInclude Include="EmployeeList.h" />
     <ClInclude Include="mainLab5.h" />
     <ClInclude Include="Seller.h" />
     <ClInclude Include="Technician.h" />
