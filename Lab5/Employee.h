@@ -76,6 +76,11 @@ Employee::~Employee()
 {
 	if (name)
 	{
+		cout << "employee: " << name << " destroyed." << endl;
 		delete[]name;
+	}
+	else
+	{
+		cout << "destroying zombie " << endl;
 	}
 }

@@ -27,6 +27,9 @@
     <ClInclude Include="mainLab5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="EmployeeList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mainLab5.cpp">
